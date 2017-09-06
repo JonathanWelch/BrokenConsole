@@ -7,12 +7,12 @@ namespace Debugging
         static void Main(string[] args)
         {
             var logger = new Logger(new Clock());
-            var orders = new OrdersPrinter(new Orders());
+            var ordersPrinter = new OrdersPrinter(new Orders());
             try
             {
                 logger.LogStart();
 
-                orders.PrintAll();
+                ordersPrinter.PrintAll();
 
                 logger.LogFinish();
             }
