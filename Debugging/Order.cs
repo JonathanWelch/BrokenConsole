@@ -18,10 +18,6 @@ namespace Debugging
 
         private decimal OrderTotal()
         {
-            if (OrderItems == null)
-            {
-                return 0m;
-            }
             return OrderItems.Sum(item => item.Quantity*item.Price);
         }
     }
