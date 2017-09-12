@@ -16,7 +16,7 @@ Before carrying out the test you will need to set this project as the Start Up P
 Set a Conditional breakpoint for the following scenarios:
 
 1. When PrintOrder() is executed for Order 2
-2. When PrintOrder() is executed for customers with first name Jack(tip: you can use the Contains() method
+2. When PrintOrder() is executed for customers with first name Jack (tip: you can use the Contains() method
 3. When PrintOrder() is executed for the third time
 
 Set a Action on a breakpoint for the following scenario:
